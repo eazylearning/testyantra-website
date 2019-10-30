@@ -390,11 +390,15 @@ ul.dropdown-menu li {
 }
 
 .slider {
-  background: url("../images/bg/bg-71.png") no-repeat 0% 30%;
+  background: url("../images/bg/5.jpg") no-repeat 0% 30%;
   background-size: cover;
   padding: 165px 0px;
 }
-
+.carousel-item img {
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
 .slider h1 {
   font-size: 90px;
   line-height: 95px;
