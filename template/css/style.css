@@ -294,7 +294,8 @@ a:hover, a:focus {
 }
 
 .bg-black-50 {
-  background: #181a23;
+  /* background: #181a23; */
+  background: #adb5bd;
 }
 
 .navbar-nav li {
@@ -303,7 +304,7 @@ a:hover, a:focus {
 
 .navbar-nav .nav-link {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #263248;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
@@ -329,7 +330,7 @@ a:hover, a:focus {
 }
 
 .dropdown-menu {
-  background: #1c1c1c;
+  background: #263248;
   border-radius: 0px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
   padding: 24px 0 26px;
@@ -390,7 +391,7 @@ ul.dropdown-menu li {
 }
 
 .slider {
-  background: url("../images/bg/5.jpg") no-repeat 0% 30%;
+  background: url("../images/bg/6.jpg") no-repeat 0% 30%;
   background-size: cover;
   padding: 165px 0px;
 }
@@ -420,6 +421,7 @@ ul.dropdown-menu li {
 .bg-3 {
   background: url("../images/bg/test.jpg") no-repeat;
   background-size: cover;
+  opacity: 0.9;
 }
 
 .bg-4 {
@@ -740,11 +742,12 @@ ul.dropdown-menu li {
 
 .footer {
   padding-top: 90px;
-  padding-bottom: 45px;
+  padding-bottom: 35px;
 }
 
 .footer p {
-  color: #fff;
+  /* color: #fff; */
+  color: black;
   opacity: .8;
   font-size: 14px;
 }
@@ -754,7 +757,8 @@ ul.dropdown-menu li {
 }
 
 .footer-menu li a {
-  color: #fff;
+  /* color: #fff; */
+  color: black;
   opacity: .8;
   font-size: 14px;
 }
@@ -850,19 +854,21 @@ ul.dropdown-menu li {
   
 }
 
-/* @media (min-width: 320px) and (max-width: 960px) {
-  .mcon {
-    margin: 0px !important;
+ @media (min-width: 320px) and (max-width: 460px) {
+  .close1 .btn {
+    right: 90px !important;
   }
-} */
-/*# sourceMappingURL=maps/style.css.map */
+  .close .btn {
+    right: 90px !important;
+  }
+} 
 
 
 .case {
   height: 145px;
 }
 .fixed-top {
-  background: #181a23;
+  background: #fff;
 }
 .tst-img {
   border-radius: 50%; 
@@ -999,20 +1005,20 @@ iframe.loc {
 .close1 .btn {
   position: absolute;
   font-size: 24px;
-  bottom: -30px;
-  background-color: #28a745;
+  bottom: -25px;
+  background-color: #ff9800;
   border-radius: 33px;
-  padding: 10px 20px;
+  padding: 6px 17px;
   right: 35px;
 }
 .close .btn {
   position: absolute;
-  background-color: #ff0000ad;
+  background-color: #ff9800;
   border-radius: 40px;
-  padding: 14px 22px;
+  padding: 13px 20px;
   right: 35px;
-  font-size: 18px;
-  bottom: -30px;
+  font-size: 16px;
+  bottom: -27px;
   color: #212529;
 }
 .soc a {
@@ -1021,3 +1027,29 @@ iframe.loc {
 /*end*/
 
 /*carousel*/
+
+.text-logo {
+  /* color: #fff!important; */
+  color: #263248;
+}
+
+.social {
+  position: fixed;
+  right: 0;
+  bottom: 90px;
+  z-index: 99999;
+    cursor: pointer;
+    background: #dee2e6;
+    /* padding: 0 7px; */
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #f4f4f4;
+}
+.footer-socials li a {
+  color: #ff9800;
+  font-size: 24px;
+  padding: 10px;
+}
+li.list-no {
+  list-style-type: none;
+  margin-left: -38px;
+}
