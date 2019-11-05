@@ -869,6 +869,7 @@ ul.dropdown-menu li {
 }
 .fixed-top {
   background: #fff;
+  border-bottom: 1px solid #ff9800;
 }
 .tst-img {
   border-radius: 50%; 
@@ -1006,19 +1007,21 @@ iframe.loc {
   position: absolute;
   font-size: 24px;
   bottom: -25px;
-  background-color: #ff9800;
+  background-color:#adb5bd;
   border-radius: 33px;
   padding: 6px 17px;
   right: 35px;
+  color: #212529;
 }
 .close .btn {
   position: absolute;
-  background-color: #ff9800;
+  background-color: #adb5bd;
   border-radius: 40px;
   padding: 13px 20px;
   right: 35px;
   font-size: 16px;
   bottom: -27px;
+  color: #212529;
   color: #212529;
 }
 .soc a {
@@ -1038,18 +1041,55 @@ iframe.loc {
   right: 0;
   bottom: 90px;
   z-index: 99999;
-    cursor: pointer;
-    background: #dee2e6;
-    /* padding: 0 7px; */
-    border-radius: 5px 0 0 5px;
-    border: 1px solid #f4f4f4;
+  cursor: pointer;
+  background: #ff9800;
+  /* padding: 0 7px; */
+  /* border-radius: 5px 0 0 5px; */
+  /* border: 1px solid #adb5bd; */
 }
 .footer-socials li a {
-  color: #ff9800;
+  color: #263248;
   font-size: 24px;
   padding: 10px;
 }
 li.list-no {
   list-style-type: none;
-  margin-left: -38px;
+  margin-left: -35px;
+}
+.contact {
+  position: fixed;
+  right: -1px;
+  bottom: 260px;
+  z-index: 99999;
+  cursor: pointer;
+  background: #dee2e6;
+  /* padding: 0 7px; */
+  border-radius: 5px 0 0 5px;
+  /* border: 1px solid #f4f4f4; */
+}
+.contact-btn {
+  padding: 10px 12px 5px;
+  background: #ff9800;
+  border: none;
+}
+i.fa.fa-envelope {
+  font-size: 25px;
+  color: #263248;
+}
+.btn-default {
+  background-color: grey;
+  border-radius: 50%;
+  padding: 8px 15px;
+}
+
+.contact-btn:focus {
+  
+  box-shadow: none;
+}
+.case-btn {
+  text-align: center;
+  background-color: #adb5bd;
+  border: none;
+  padding: 5px 10px;
+  color: #263248;
 }
