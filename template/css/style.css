@@ -309,6 +309,7 @@ a:hover, a:focus {
   font-size: 14px;
   letter-spacing: 1px;
   transition: all .25s ease;
+  font-weight: 700;
 }
 
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
@@ -347,11 +348,12 @@ a:hover, a:focus {
 }
 
 .dropdown-item {
-  color: #c8c8c8;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 12px;
   padding: .55rem 2rem;
+  font-weight: 700;
 }
 
 .dropdown-toggle::after {
@@ -387,8 +389,10 @@ ul.dropdown-menu li {
 }
 
 .navbar-collapse.collapse.show {
-  background: #181a23;
+  /* background: #181a23; */
+  
 }
+
 
 .slider {
   background: url("../images/bg/6.jpg") no-repeat 0% 30%;
@@ -1076,6 +1080,9 @@ i.fa.fa-envelope {
   font-size: 25px;
   color: #263248;
 }
+i.fa.fa-envelope:hover {
+  color: #f5634b !important;
+}
 .btn-default {
   background-color: grey;
   border-radius: 50%;
@@ -1090,6 +1097,8 @@ i.fa.fa-envelope {
   text-align: center;
   background-color: #adb5bd;
   border: none;
-  padding: 5px 10px;
-  color: #263248;
+  padding: 10px 15px;
 }
+/* .case-btn a {
+  color: #263248;
+} */
