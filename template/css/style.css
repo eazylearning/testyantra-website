@@ -399,12 +399,22 @@ ul.dropdown-menu li {
   background-size: cover;
   padding: 165px 0px;
 }
+.slider1 {
+  background: url("../images/bg/8.jpg") no-repeat 0% 30%;
+  background-size: cover;
+  padding: 165px 0px;
+}
+.slider2 {
+  background: url("../images/bg/7.jpg") no-repeat 0% 30%;
+  background-size: cover;
+  padding: 165px 0px;
+}
 .carousel-item img {
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
 }
-.slider h1 {
+.slider h1, .slider1 h1, .slider2 h1 {
   font-size: 90px;
   line-height: 95px;
 }
@@ -430,6 +440,14 @@ ul.dropdown-menu li {
 
 .bg-4 {
   background: url("../images/about/img-7.jpg") no-repeat;
+  background-size: cover;
+}
+.abt-bg {
+  background: url("../images/bg/im4.jpg") no-repeat;
+  background-size: cover;
+}
+.leader-bg {
+  background: url("../images/bg/im2.jpg") no-repeat;
   background-size: cover;
 }
 
