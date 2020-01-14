@@ -1133,3 +1133,8 @@ i.fa.fa-envelope:hover {
   height: 35px;
   width: 200px;
 }
+img.logos {
+  max-width: 100%;
+  vertical-align: middle;
+  padding: 35px 0;
+}
